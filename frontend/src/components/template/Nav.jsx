@@ -1,0 +1,25 @@
+/* eslint-disable import/no-anonymous-default-export */
+import './Nav.css'
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+
+
+export default props =>
+
+
+    <aside className="menu-area">
+        <nav className="menu">
+            <Link to='/'>
+            <i className='fa fa-home'></i> Inicio
+            </Link>
+
+            <Link to='/users'>
+            <i className='fa fa-users'></i> Cadastrar Clientes
+            </Link>
+
+            <Link to='/listagem'>
+            <i className='fa fa-users'></i> Relatório Clientes
+            </Link>
+        </nav>
+    </aside>
